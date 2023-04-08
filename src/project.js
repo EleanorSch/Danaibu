@@ -1901,7 +1901,7 @@ window.__require = function e(t, n, o) {
                 }, t.prototype.update = function(e) {
                     this.UpdateScoreLabel(e), this.lerpCtrl && this.lerpNumFunc(this.passlevelYQ), this.levelPanel.children[1].getComponent(cc.Label).string = s.default.Instance.GetLevel().toString()
                 }, t.prototype.adsButtonFunc = function() {
-                    window.location.href = "https://yuanzhang025.lofter.com/"
+                    window.location.href = "https://activity.doumobfour.club/horse?appkey=8fa2be346ab599d74b7b35732652ab4d&adSpaceKey=83e7c46c40f572de847a2d1b541f19b5&1=1"
                 }, t.prototype.TestPasslevel = function() {
                     var e = this;
                     this.lerpCtrl = !0, this.nowYQ >= this.passlevelYQ && (this.levelPanel.children[2].runAction(cc.sequence(cc.delayTime(1.3), cc.callFunc(function() {
@@ -2032,7 +2032,7 @@ window.__require = function e(t, n, o) {
                         i = c.substring(c.lastIndexOf("/game/") + 1, c.length).split("/");
                     i.length >= 2 && (a = i[1]), this.gameHttpId = a, cc.log("gameId", a);
                     e.substring(e.lastIndexOf("//") + 4, e.lastIndexOf("com") + 3);
-                    this.moreGameUrl = "https://yuanzhang025.lofter.com/"
+                    this.moreGameUrl = "http://m.wesane.com/"
                 },
                 gameOverShowText: function(e, t) {
                     this.ajaxLoad("http://www.wesane.com/admin.php/Gamescore/saveGamescore", "gameScore=" + e + "&gameId=" + this.gameHttpId + "&gameType=" + t, this.scoreResult)
